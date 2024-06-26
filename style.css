@@ -14,23 +14,30 @@
     text-align: center;
     display: block;
   }
-
-  /*body {
-      min-width: 500px;
-  }*/
   
+  figure{
+    padding-left: 80px;
+  }
+
   div {
     border-radius: 5px;
   }
   #nome{
-    padding-top: 100px;
+    padding-top: 25px;
     text-align: center;
+    padding-left: 80px;
+  }
+  nav ul{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
   }
   #menu{
     position: fixed;
-    background-color: white;
-    width: 560px;
-    height: 150px;
+    background-color: #ffdcdc;
+    width: 610px;
+    justify-content: center;
+    height: 80px;
     top: 40px;
   }
 
@@ -73,7 +80,7 @@
   .stuff {
     display: inline-block;
     margin-top: 6px;
-    margin-left: 55px;
+    margin-left: 45px;
     width: 75%;
     height: 1000px;
   }
@@ -91,6 +98,7 @@
   cite {
     font-family: 'Cormorant Garamond';
     font-size: smaller;
+    text-align: justify;
   }
   
   .head {
@@ -121,7 +129,8 @@
   }
 footer {
     background: rgb(211, 234, 241);
-    width: auto;
+    width: 610px;
+    height: 50px;
 }
 
 .copyright {
